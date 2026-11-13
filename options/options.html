@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CaptureSok · Settings</title><link rel="stylesheet" href="../ui/base.css"><link rel="stylesheet" href="options.css"></head><body>
+<div class="shell"><header><div class="brand"><img src="../icons/48.png" alt=""><strong>CaptureSok</strong></div><span class="muted" data-version></span></header>
+<main><div class="page-heading"><h1 data-i18n="settings"></h1><p class="muted" data-i18n="settingsIntro"></p></div>
+<nav class="settings-nav" data-label="settings"><a href="#captureSettings" data-i18n="exportSettings"></a><a href="#appearanceSettings" data-i18n="appearance"></a><a href="#shortcutSettings" data-i18n="shortcutSettings"></a></nav>
+<section class="card" id="captureSettings"><h2 data-i18n="exportSettings"></h2>
+<label class="row" for="format"><span data-i18n="format"></span><select id="format"><option value="png">PNG</option><option value="jpeg">JPG</option></select></label>
+<div class="row"><label for="quality" data-i18n="quality"></label><div class="range"><input id="quality" type="range" min="50" max="100" value="92"><output id="qualityValue" for="quality">92%</output></div></div>
+<label class="row" for="autoDownload"><span><strong data-i18n="autoDownload"></strong><small data-i18n="autoDownloadDesc"></small></span><input id="autoDownload" type="checkbox" role="switch"></label>
+<label class="row" for="preview"><span><strong data-i18n="preview"></strong><small data-i18n="previewDesc"></small></span><input id="preview" type="checkbox" role="switch"></label>
+</section>
+
+<section class="card" id="appearanceSettings"><h2 data-i18n="appearance"></h2><label class="row" for="theme"><span data-i18n="theme"></span><select id="theme"><option value="system" data-i18n="system"></option><option value="light" data-i18n="light"></option><option value="dark" data-i18n="dark"></option></select></label></section>
+<section class="card shortcuts" id="shortcutSettings"><h2 data-i18n="shortcutSettings"></h2><p class="muted" data-i18n="shortcutHelp"></p><div id="shortcutList"></div><p id="missing" class="muted" hidden data-i18n="shortcutMissing"></p><button class="primary" id="editShortcuts" data-i18n="editShortcuts"></button></section>
+<p id="status" class="status" role="status" aria-live="polite"></p>
+</main><footer><span data-i18n="localOnly"></span><a href="../docs/privacy.html" target="_blank" data-i18n="privacy"></a></footer></div><script type="module" src="options.js"></script></body></html>

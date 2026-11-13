@@ -1,0 +1,10 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CaptureSok</title><link rel="stylesheet" href="../ui/base.css"><link rel="stylesheet" href="popup.css"></head><body>
+<header><div class="brand"><img src="../icons/48.png" alt=""><div><strong>CaptureSok</strong><small data-i18n="tagline"></small></div></div></header>
+<main><p class="eyebrow" data-i18n="chooseMode"></p><div class="modes">
+<button data-mode="region"><span class="mode-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5m6 0h5v5m0 6v5h-5m-6 0H4v-5M9 9h6v6H9z"/></svg></span><span class="mode-copy"><strong data-i18n="region"></strong><small data-i18n="regionDesc"></small></span><kbd></kbd></button>
+<button data-mode="element"><span class="mode-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM9 8l2 10 2-4 4-2z"/></svg></span><span class="mode-copy"><strong data-i18n="element"></strong><small data-i18n="elementDesc"></small></span><kbd></kbd></button>
+<button data-mode="full"><span class="mode-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-3 3v4m-2-2 2 2 2-2"/></svg></span><span class="mode-copy"><strong data-i18n="full"></strong><small data-i18n="fullDesc"></small></span><kbd></kbd></button>
+<button data-mode="visible"><span class="mode-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h18v13H3zM8 21h8m-4-4v4"/></svg></span><span class="mode-copy"><strong data-i18n="visible"></strong><small data-i18n="visibleDesc"></small></span><kbd></kbd></button>
+</div><p id="status" class="status" role="status"></p><button id="cancel" data-i18n="cancel" hidden></button></main>
+<footer><div><button class="ghost" id="settings" data-i18n="settings"></button><button class="ghost" id="shortcuts" data-i18n="shortcutSettings"></button><span class="version" data-version></span></div><small class="privacy-line"><span aria-hidden="true">●</span> <span data-i18n="localOnly"></span></small></footer>
+<script type="module" src="popup.js"></script></body></html>

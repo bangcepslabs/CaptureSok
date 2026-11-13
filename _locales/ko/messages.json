@@ -1,0 +1,251 @@
+{
+  "action_back": {
+    "message": "뒤로가기"
+  },
+  "action_forward": {
+    "message": "앞으로가기"
+  },
+  "action_newTab": {
+    "message": "새 탭 열기"
+  },
+  "action_newWindow": {
+    "message": "새 창 열기"
+  },
+  "action_reload": {
+    "message": "새로고침"
+  },
+  "action_closeTab": {
+    "message": "현재 탭 닫기"
+  },
+  "action_closeWindow": {
+    "message": "현재 창 닫기"
+  },
+  "action_previousTab": {
+    "message": "이전 탭으로 이동"
+  },
+  "action_nextTab": {
+    "message": "다음 탭으로 이동"
+  },
+  "action_scrollTop": {
+    "message": "페이지 맨 위로"
+  },
+  "action_scrollBottom": {
+    "message": "페이지 맨 아래로"
+  },
+  "extensionName": {
+    "message": "캡처쏙 CaptureSok - 화면 캡처 및 스크린샷"
+  },
+  "extensionDescription": {
+    "message": "영역·요소·전체 페이지를 캡처하고 편집·저장합니다. 이미지는 기기 안에서 처리합니다."
+  },
+  "tagline": {
+    "message": "원하는 화면만, 쏙."
+  },
+  "chooseMode": {
+    "message": "어떻게 캡처할까요?"
+  },
+  "region": {
+    "message": "직접 지정"
+  },
+  "regionDesc": {
+    "message": "드래그로 원하는 영역만"
+  },
+  "element": {
+    "message": "요소 선택"
+  },
+  "elementDesc": {
+    "message": "클릭으로 화면 속 요소 선택"
+  },
+  "full": {
+    "message": "전체 페이지"
+  },
+  "fullDesc": {
+    "message": "스크롤 아래까지 한 장으로"
+  },
+  "visible": {
+    "message": "보이는 화면"
+  },
+  "visibleDesc": {
+    "message": "지금 보고 있는 탭 화면 그대로"
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "settingsIntro": {
+    "message": "캡처부터 저장까지, 나에게 맞게."
+  },
+  "shortcutSettings": {
+    "message": "단축키"
+  },
+  "shortcutHelp": {
+    "message": "아래 버튼을 눌러 Chrome 설정에서 CaptureSok을 찾으세요. 각 기능의 연필 아이콘을 누르고 원하는 키 조합을 입력하면 바로 적용됩니다. Ctrl 또는 Alt와 다른 키를 함께 사용하세요. Chrome·운영체제가 사용하는 키는 지정되지 않을 수 있습니다."
+  },
+  "editShortcuts": {
+    "message": "커스텀 단축키 설정"
+  },
+  "unassigned": {
+    "message": "미지정"
+  },
+  "shortcutMissing": {
+    "message": "미지정 단축키가 있습니다. 단축키 설정에서 키를 지정하세요."
+  },
+  "dragHint": {
+    "message": "영역을 드래그하세요 · ESC 취소"
+  },
+  "elementHint": {
+    "message": "클릭하여 캡처 · ↑ 상위 요소 · ↓ 다시 선택 · ESC 취소"
+  },
+  "minimumSelection": {
+    "message": "가로·세로 3px 이상의 영역을 선택하세요."
+  },
+  "format": {
+    "message": "기본 파일 형식"
+  },
+  "quality": {
+    "message": "JPG 품질"
+  },
+  "exportSettings": {
+    "message": "이미지 저장"
+  },
+  "autoDownload": {
+    "message": "캡처 후 자동 저장"
+  },
+  "autoDownloadDesc": {
+    "message": "선택한 형식으로 다운로드 폴더에 저장합니다."
+  },
+  "preview": {
+    "message": "캡처 후 미리보기"
+  },
+  "previewDesc": {
+    "message": "끄면 미리보기 대신 기본 형식으로 자동 저장합니다."
+  },
+  "theme": {
+    "message": "화면 테마"
+  },
+  "appearance": {
+    "message": "화면 설정"
+  },
+  "system": {
+    "message": "시스템 설정"
+  },
+  "light": {
+    "message": "라이트"
+  },
+  "dark": {
+    "message": "다크"
+  },
+  "saved": {
+    "message": "설정을 저장했습니다."
+  },
+  "localOnly": {
+    "message": "이미지는 기기에서만 처리합니다"
+  },
+  "privacy": {
+    "message": "개인정보 처리방침"
+  },
+  "copy": {
+    "message": "이미지 복사"
+  },
+  "copied": {
+    "message": "이미지를 복사했습니다. Ctrl+V로 붙여넣으세요."
+  },
+  "copyFailed": {
+    "message": "이미지 복사에 실패했습니다. 파일로 저장해 사용해 주세요."
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "cancel": {
+    "message": "캡처 취소"
+  },
+  "capturing": {
+    "message": "캡처 중"
+  },
+  "captureReady": {
+    "message": "캡처가 준비됐어요"
+  },
+  "resultTitle": {
+    "message": "캡처 결과"
+  },
+  "download": {
+    "message": "이미지 저장"
+  },
+  "downloadStarted": {
+    "message": "이미지를 저장하고 있습니다…"
+  },
+  "downloadComplete": {
+    "message": "이미지 저장이 완료됐습니다."
+  },
+  "downloadFailed": {
+    "message": "저장이 중단됐습니다. 다시 저장해 주세요."
+  },
+  "fit": {
+    "message": "화면에 맞추기"
+  },
+  "actualSize": {
+    "message": "원본 크기"
+  },
+  "zoomIn": {
+    "message": "확대"
+  },
+  "zoomOut": {
+    "message": "축소"
+  },
+  "deleteResult": {
+    "message": "이미지 삭제"
+  },
+  "deleted": {
+    "message": "임시 이미지를 삭제했습니다."
+  },
+  "processing": {
+    "message": "이미지를 준비하고 있습니다…"
+  },
+  "elementLimit": {
+    "message": "요소 캡처는 현재 화면에 보이는 부분을 저장합니다."
+  },
+  "fullLimit": {
+    "message": "스크롤하는 동안 화면 조작을 잠시 멈춰 주세요. ESC로 취소할 수 있습니다."
+  },
+  "restricted": {
+    "message": "이 페이지는 캡처할 수 없습니다. 일반 웹페이지에서 실행해 주세요. 로컬 파일은 확장 프로그램의 파일 URL 접근 허용이 필요합니다."
+  },
+  "busy": {
+    "message": "다른 캡처가 진행 중입니다. 완료하거나 취소한 뒤 다시 실행해 주세요."
+  },
+  "tooLarge": {
+    "message": "안전한 이미지 크기 한도를 초과했습니다. 보이는 화면이나 작은 영역으로 나눠 캡처해 주세요."
+  },
+  "noResult": {
+    "message": "이미지가 삭제됐거나 만료됐습니다. 새로 캡처해 주세요."
+  },
+  "saveFailed": {
+    "message": "이미지를 저장하지 못했습니다. 다시 시도해 주세요."
+  },
+  "storageFailed": {
+    "message": "임시 이미지를 보관할 공간이 부족합니다. 사용하지 않는 결과 탭을 닫아 주세요."
+  },
+  "captureFailed": {
+    "message": "캡처하지 못했습니다. 페이지를 새로고침한 뒤 다시 실행해 주세요."
+  },
+  "invalidMode": {
+    "message": "지원하지 않는 캡처 모드입니다."
+  },
+  "invalidSelection": {
+    "message": "선택한 영역이 유효하지 않습니다. 다시 선택해 주세요."
+  },
+  "pageLoading": {
+    "message": "페이지 로딩이 끝난 뒤 다시 캡처해 주세요."
+  },
+  "pageChanged": {
+    "message": "탭, 화면 크기 또는 페이지 내용이 바뀌어 캡처를 중단했습니다. 페이지가 안정된 뒤 다시 시도해 주세요."
+  },
+  "interrupted": {
+    "message": "캡처 연결이 끊겼습니다. 다시 실행해 주세요."
+  },
+  "cancelled": {
+    "message": "캡처를 취소했습니다."
+  },
+  "version": {
+    "message": "버전"
+  }
+}

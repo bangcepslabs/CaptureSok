@@ -1,0 +1,28 @@
+import assert from 'node:assert/strict';
+import {createAnnotationDocument, annotationAt, renderAnnotations} from '../result/annotations.js';
+
+const doc = createAnnotationDocument();
+doc.add({id:'a',type:'rect',x:10,y:20,width:100,height:80,color:'#ff0000',lineWidth:3});
+doc.add({id:'b',type:'text',x:20,y:30,width:50,height:20,text:'hello',fontSize:20,color:'#000',align:'left'});
+assert.equal(annotationAt(doc.list(),25,35).id,'b');
+assert.equal(doc.update('a',{x:40,width:150}),true);
+assert.equal(doc.list()[0].x,40);
+assert.equal(doc.undo(),true);
+assert.equal(doc.list()[0].x,10);
+assert.equal(doc.redo(),true);
+assert.equal(doc.list()[0].width,150);
+doc.remove('b');
+assert.equal(annotationAt(doc.list(),25,35),null);
+assert.equal(doc.undo(),true);
+assert.equal(doc.list()[1].text,'hello');
+const copy=doc.list();copy[0].x=999;assert.equal(doc.list()[0].x,40);
+const calls=[];
+const ctx={save(){},restore(){},strokeRect(...args){calls.push(['rect',...args]);},fillText(...args){calls.push(['text',...args]);},fillRect(){}};
+renderAnnotations(ctx,doc.list());
+assert.deepEqual(calls.map(call=>call[0]),['rect','text']);
+doc.crop(15,25,100,100);
+assert.equal(doc.list()[0].x,25);
+assert.equal(doc.list()[1].y,5);
+assert.equal(doc.undo(),true);
+assert.equal(doc.list()[0].x,40);
+console.log('PASS annotation selection, editing, history, isolation and rendering');

@@ -1,0 +1,251 @@
+{
+  "action_back": {
+    "message": "Go back"
+  },
+  "action_forward": {
+    "message": "Go forward"
+  },
+  "action_newTab": {
+    "message": "Open a new tab"
+  },
+  "action_newWindow": {
+    "message": "Open a new window"
+  },
+  "action_reload": {
+    "message": "Reload page"
+  },
+  "action_closeTab": {
+    "message": "Close current tab"
+  },
+  "action_closeWindow": {
+    "message": "Close current window"
+  },
+  "action_previousTab": {
+    "message": "Previous tab"
+  },
+  "action_nextTab": {
+    "message": "Next tab"
+  },
+  "action_scrollTop": {
+    "message": "Scroll to top"
+  },
+  "action_scrollBottom": {
+    "message": "Scroll to bottom"
+  },
+  "extensionName": {
+    "message": "CaptureSok - Screenshot & Full Page Capture"
+  },
+  "extensionDescription": {
+    "message": "Capture, edit and save screenshots locally. Select a region, element, visible screen or full page."
+  },
+  "tagline": {
+    "message": "Just the screen you need."
+  },
+  "chooseMode": {
+    "message": "What would you like to capture?"
+  },
+  "region": {
+    "message": "Select a region"
+  },
+  "regionDesc": {
+    "message": "Drag around exactly what you need"
+  },
+  "element": {
+    "message": "Select an element"
+  },
+  "elementDesc": {
+    "message": "Point and click on a page element"
+  },
+  "full": {
+    "message": "Full page"
+  },
+  "fullDesc": {
+    "message": "Everything down the page, in one image"
+  },
+  "visible": {
+    "message": "Visible screen"
+  },
+  "visibleDesc": {
+    "message": "The tab exactly as you see it"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "settingsIntro": {
+    "message": "Make capture and saving work your way."
+  },
+  "shortcutSettings": {
+    "message": "Shortcuts"
+  },
+  "shortcutHelp": {
+    "message": "Open Chrome settings below and find CaptureSok. Click the pencil next to a command and press your preferred keys. Use Ctrl or Alt with another key. Keys reserved by Chrome or your operating system may not be available."
+  },
+  "editShortcuts": {
+    "message": "Customize shortcuts"
+  },
+  "unassigned": {
+    "message": "Unassigned"
+  },
+  "shortcutMissing": {
+    "message": "Some shortcuts are unassigned. Set them in shortcut settings."
+  },
+  "dragHint": {
+    "message": "Drag to select · Esc to cancel"
+  },
+  "elementHint": {
+    "message": "Click to capture · ↑ Parent · ↓ Retarget · Esc to cancel"
+  },
+  "minimumSelection": {
+    "message": "Select an area at least 3 pixels wide and high."
+  },
+  "format": {
+    "message": "Default file format"
+  },
+  "quality": {
+    "message": "JPG quality"
+  },
+  "exportSettings": {
+    "message": "Saving images"
+  },
+  "autoDownload": {
+    "message": "Save automatically"
+  },
+  "autoDownloadDesc": {
+    "message": "Save to Downloads using your selected format."
+  },
+  "preview": {
+    "message": "Show preview after capture"
+  },
+  "previewDesc": {
+    "message": "When off, automatically save using the default format."
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "appearance": {
+    "message": "Appearance"
+  },
+  "system": {
+    "message": "System"
+  },
+  "light": {
+    "message": "Light"
+  },
+  "dark": {
+    "message": "Dark"
+  },
+  "saved": {
+    "message": "Settings saved."
+  },
+  "localOnly": {
+    "message": "Images stay on your device"
+  },
+  "privacy": {
+    "message": "Privacy policy"
+  },
+  "copy": {
+    "message": "Copy image"
+  },
+  "copied": {
+    "message": "Image copied. Paste it with Ctrl+V."
+  },
+  "copyFailed": {
+    "message": "Could not copy the image. Save it as a file instead."
+  },
+  "close": {
+    "message": "Close"
+  },
+  "cancel": {
+    "message": "Cancel capture"
+  },
+  "capturing": {
+    "message": "Capturing"
+  },
+  "captureReady": {
+    "message": "Your capture is ready"
+  },
+  "resultTitle": {
+    "message": "Capture preview"
+  },
+  "download": {
+    "message": "Save image"
+  },
+  "downloadStarted": {
+    "message": "Saving image…"
+  },
+  "downloadComplete": {
+    "message": "Image saved successfully."
+  },
+  "downloadFailed": {
+    "message": "The download was interrupted. Please try again."
+  },
+  "fit": {
+    "message": "Fit to screen"
+  },
+  "actualSize": {
+    "message": "Actual size"
+  },
+  "zoomIn": {
+    "message": "Zoom in"
+  },
+  "zoomOut": {
+    "message": "Zoom out"
+  },
+  "deleteResult": {
+    "message": "Delete image"
+  },
+  "deleted": {
+    "message": "Temporary image deleted."
+  },
+  "processing": {
+    "message": "Preparing your image…"
+  },
+  "elementLimit": {
+    "message": "Element capture saves only the portion visible on screen."
+  },
+  "fullLimit": {
+    "message": "Keep the page still while it scrolls. Press Esc to cancel."
+  },
+  "restricted": {
+    "message": "This page cannot be captured. Open a regular web page. Local files require Allow access to file URLs in extension settings."
+  },
+  "busy": {
+    "message": "A capture is already running. Finish or cancel it first."
+  },
+  "tooLarge": {
+    "message": "This page exceeds the safe image size limit. Capture the visible screen or smaller regions instead."
+  },
+  "noResult": {
+    "message": "This image was deleted or expired. Please capture again."
+  },
+  "saveFailed": {
+    "message": "Could not save the image. Please try again."
+  },
+  "storageFailed": {
+    "message": "Not enough space for a temporary image. Close unused capture tabs."
+  },
+  "captureFailed": {
+    "message": "Capture failed. Reload the page and try again."
+  },
+  "invalidMode": {
+    "message": "This capture mode is not supported."
+  },
+  "invalidSelection": {
+    "message": "The selected area is invalid. Please select it again."
+  },
+  "pageLoading": {
+    "message": "Wait for the page to finish loading and try again."
+  },
+  "pageChanged": {
+    "message": "Capture stopped because the tab, viewport or page changed. Try again when the page is stable."
+  },
+  "interrupted": {
+    "message": "The capture connection was interrupted. Please try again."
+  },
+  "cancelled": {
+    "message": "Capture cancelled."
+  },
+  "version": {
+    "message": "Version"
+  }
+}
