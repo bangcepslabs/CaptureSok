@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "default_locale": "ko",
   "permissions": [
     "activeTab",
@@ -34,25 +34,25 @@
   "commands": {
     "capture-region": {
       "suggested_key": {
-        "windows": "Alt+1"
+        "default": "Alt+1"
       },
       "description": "__MSG_region__"
     },
     "capture-element": {
       "suggested_key": {
-        "windows": "Alt+2"
+        "default": "Alt+2"
       },
       "description": "__MSG_element__"
     },
     "capture-full": {
       "suggested_key": {
-        "windows": "Alt+3"
+        "default": "Alt+3"
       },
       "description": "__MSG_full__"
     },
     "capture-visible": {
       "suggested_key": {
-        "windows": "Alt+4"
+        "default": "Alt+4"
       },
       "description": "__MSG_visible__"
     }

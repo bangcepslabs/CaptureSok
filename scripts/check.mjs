@@ -1,6 +1,12 @@
 import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';import {execFileSync} from 'node:child_process';
 const manifest=JSON.parse(await fs.readFile('manifest.json','utf8'));
-assert.equal(manifest.manifest_version,3);assert.equal(manifest.version,'1.1.0');assert.deepEqual([...manifest.permissions].sort(),['activeTab','downloads','scripting','storage']);assert.equal(manifest.host_permissions,undefined);assert.equal(manifest.optional_host_permissions,undefined);
+const pkg=JSON.parse(await fs.readFile('package.json','utf8'));
+const lock=JSON.parse(await fs.readFile('package-lock.json','utf8'));
+assert.equal(pkg.version,lock.version);
+assert.equal(manifest.manifest_version,3);assert.equal(manifest.version,pkg.version);assert.deepEqual([...manifest.permissions].sort(),['activeTab','downloads','scripting','storage']);assert.equal(manifest.host_permissions,undefined);assert.equal(manifest.optional_host_permissions,undefined);
+for(const [name,command] of Object.entries(manifest.commands)){
+ assert.ok(command.suggested_key?.default,`${name} needs a fallback shortcut for Linux and other platforms`);
+}
 const locales={};for(const lang of ['ko','en'])locales[lang]=JSON.parse(await fs.readFile(`_locales/${lang}/messages.json`,'utf8'));
 assert.deepEqual(Object.keys(locales.ko).sort(),Object.keys(locales.en).sort());
 for(const value of Object.values(locales.en))assert.ok(value.message);
